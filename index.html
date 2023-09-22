@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Stay Vinyl Ink Longwear Liquid Lipstick</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="sec">
+      <header>
+        <a href="#"><img src="img/logo.png" class="logo" /></a>
+        <div class="toggleMenu" onclick="menuToggle();"></div>
+        <ul class="navigation">
+          <li><a class="header" id="Home" href="#">Home</a></li>
+          <li><a class="header" id="Products" href="#">Products</a></li>
+          <li><a class="header" id="What's New" href="#">New</a></li>
+          <li><a class="header" id="Newsletter" href="#">Makeup Tips</a></li>
+          <li><a class="header" id="Contact" href="#">Contact</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>
+            <br /><span>Super Stay</span> Vinyl Ink Longwear Liquid Lipstick
+          </h2>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+            nulla aliquet, euismod quam vitae, porttitor magna. Proin vel odio
+            quis enim cursus congue ac ac libero. Praesent posuere velit justo,
+            quis aliquam sem lobortis nec. Integer sapien magna, auctor a magna
+            et, vehicula eleifend leo.
+          </p>
+          <a id="viewAllProducts" href="#">View All Products</a>
+        </div>
+        <div class="imgBox">
+          <img src="img/lipstick1.png" data-speed="-3" class="lipstick move" />
+        </div>
+      </div>
+      <footer>
+        <ul class="thumb">
+          <li>
+            <img
+              src="img/lipstick1.png"
+              onclick="imgSlider('img/lipstick1.png');changeBgColor('#7b0b18')"
+            />
+          </li>
+          <li>
+            <img
+              src="img/lipstick2.png"
+              onclick="imgSlider('img/lipstick2.png');changeBgColor('#b4504e')"
+            />
+          </li>
+          <li>
+            <img
+              src="img/lipstick3.png"
+              onclick="imgSlider('img/lipstick3.png');changeBgColor('#8a4549')"
+            />
+          </li>
+        </ul>
+      </footer>
+      <ul class="sci">
+        <li><a href="#" class="fab fa-facebook-f fa-3x"></a></li>
+        <li><a href="#" class="fab fa-twitter fa-3x"></a></li>
+        <li><a href="#" class="fab fa-instagram fa-3x"></a></li>
+      </ul>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
